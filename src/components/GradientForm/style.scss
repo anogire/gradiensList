@@ -1,0 +1,36 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.GradientForm-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 30px;
+  width: 100%;
+  min-width: 300px;
+  @include media-breakpoint-up(sm) {
+    width: 50%;
+  }
+}
+.GradientForm-form {
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  width: 100%;
+  padding: 30px;
+}
+
+.main-input {
+  display: block;
+  width: 100%;
+}
+.buttons-group {
+  display: flex;
+}
+.main-button {
+  width: 50%;
+}
+.not-valid {
+  border: 2px solid red;
+}
+.not-valid-alert {
+  display: none;
+}
