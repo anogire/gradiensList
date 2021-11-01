@@ -1,6 +1,6 @@
 import {parseHEX} from './parse-hex';
 
-describe('parseHEX function', () => {
+xdescribe('parseHEX function', () => {
     it('parseHEX must be a function', () => {
         const type = typeof parseHEX;
         expect(type).toBe('function');
